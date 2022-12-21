@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val player = ExoPlayer.Builder(this).build()
-        val mediaItem: MediaItem = MediaItem.fromUri("http://vaca.vip:8888/ga.webm")
+        val mediaItem: MediaItem = MediaItem.fromUri("http://vaca.vip:8888/ga.ts")
 
         player.setMediaItem(mediaItem)
         player.prepare();
